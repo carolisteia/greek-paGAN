@@ -23,7 +23,7 @@ python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'
 
 # Team member's
 - Carolina Macedo *alias* carolisteia
-- Fengyi Chen *alias* 
+- Fengyi Chen *alias* chenfen11
 - Gaetan Drouet *alias* Gaetandrouet
 - Nana Maglakelidze *alias* Nanamaglakelidze
 - Emilie Guido *alias* Emiliegd14
