@@ -1,11 +1,11 @@
 # greek-paGAN
 
 ## Goal
-In this exercise, we aim to perform classification and generation tasks on a dataset of ancient Greek characters.
+In this exercise, we aim to perform classification and generation tasks on a dataset of ancient Greek characters. A more detailed explanation is available in the accompanying report file.
 
-## dataset
-The original dataset is available on Icdar's 2013 [Competition](https://faubox.rrze.uni-erlangen.de/getlink/fi8qaEMwMkc5L2Bg7tdh5L/HomerCompTraining.zip). For this exercice, we are using the images's crops, that are available on the folder/data with a total of 35 579 images.
-
+# dataset
+## classification
+The original dataset is available from the ICDAR 2013 competition [here](https://faubox.rrze.uni-erlangen.de/getlink/fi8qaEMwMkc5L2Bg7tdh5L/HomerCompTraining.zip). For this exercise, we are using cropped images of each character on the papyrus, which can be downloaded [here](https://www.dropbox.com/scl/fo/xmzzg3rks3f9xf0s5i4bz/ABAEORqLtKzgfCxIqjGahPg?rlkey=mtr91csjom9h1274ppeem2gss&st=igv0rka5&dl=0).
 
 # Install
 ## Tensorflow
