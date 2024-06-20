@@ -1,6 +1,6 @@
 # greek-paGAN
 
-# scope
+# Goal
  In this exercise, we aim to do classification and generation tasks on an ancient Greek characters dataset.
 
 # dataset
@@ -14,12 +14,16 @@ python3 -m pip install tensorflow[and-cuda]
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 
+# Yolo V8
+Source code: https://pypi.org/project/ultralytics/
+```bash
+conda create --name yolo python=3.10
+pip install ultralytics
+pip install ipykernel
+```
+
 # Folders's content
-- `CR/` : dossier contenant les comptes rendus des rendez-vous de groupe
-- `json/` : dossier contenant les json de nos annotations
-- `notebooks/`: dossier contenant les notebook Detectron2
-- `Python_HN/`: (__dossier complet exécutable__) dossier contenant le notebook final Detectron2, le répertoire contenant les images, les annotations finales et les résultats du modèle.
-- `parametres_VGG.png` : capture d'écran des paramètres utilisés sur VGG pour les annotations 'humain'. 
+- 
 
 # Team member's
 - Carolina Macedo *alias* carolisteia
