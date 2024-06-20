@@ -1,12 +1,12 @@
 # greek-paGAN
 
-# Goal
+## Goal
  In this exercise, we aim to do classification and generation tasks on an ancient Greek characters dataset.
 
-# dataset
+## dataset
 The original dataset is available on Icdar's 2013 [Competition](https://faubox.rrze.uni-erlangen.de/getlink/fi8qaEMwMkc5L2Bg7tdh5L/HomerCompTraining.zip). For this exercice, we are using the images's crops, that are available on the folder/data with a total of 35 579 images.
 
-# Tensorflow
+##\ Tensorflow
 Source code : https://www.tensorflow.org/install/pip
 ```bash
 python3 -m pip install tensorflow[and-cuda]
