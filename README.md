@@ -5,7 +5,8 @@ In this exercise, we aim to perform classification and generation tasks on a dat
 
 # dataset
 ## classification
-The original dataset is from the ICDAR 2023 [competition](https://lme.tf.fau.de/competitions/2023-competition-on-detection-and-recognition-of-greek-letters-on-papyri/). Participating teams focused on glyph detection and recognition in ancient Greek texts on damaged papyri. For this exercise, we are using cropped images of each character from the papyrus, available for download here.
+The original dataset is from the ICDAR 2023 [competition](https://lme.tf.fau.de/competitions/2023-competition-on-detection-and-recognition-of-greek-letters-on-papyri/). Participating teams focused on glyph detection and recognition in ancient Greek texts on damaged papyri. For this exercise, we are using cropped images of each character from the papyrus, available for download [here](https://www.dropbox.com/scl/fo/xmzzg3rks3f9xf0s5i4bz/ABAEORqLtKzgfCxIqjGahPg?rlkey=mtr91csjom9h1274ppeem2gss&st=igv0rka5&dl=0).
+
 # Install
 ## Tensorflow
 Source code : https://www.tensorflow.org/install/pip
