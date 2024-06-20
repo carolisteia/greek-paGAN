@@ -6,7 +6,9 @@
 ## dataset
 The original dataset is available on Icdar's 2013 [Competition](https://faubox.rrze.uni-erlangen.de/getlink/fi8qaEMwMkc5L2Bg7tdh5L/HomerCompTraining.zip). For this exercice, we are using the images's crops, that are available on the folder/data with a total of 35 579 images.
 
-##\ Tensorflow
+
+# Install
+## Tensorflow
 Source code : https://www.tensorflow.org/install/pip
 ```bash
 python3 -m pip install tensorflow[and-cuda]
@@ -22,10 +24,10 @@ pip install ultralytics
 pip install ipykernel
 ```
 
-# Folders's content
+## Folders's content
 - 
 
-# Team member's
+## Team member's
 - Carolina Macedo *alias* carolisteia
 - Fengyi Chen *alias* chenfen11
 - Gaetan Drouet *alias* Gaetandrouet
