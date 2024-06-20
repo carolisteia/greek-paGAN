@@ -2,7 +2,7 @@
 
 Welcome to the installation guide for our project. This guide will walk you through the setup process for two crucial components necessary for running our applications: **TensorFlow with GPU support** and **Yolo V8**. By following these steps, you will prepare your environment to leverage TensorFlow's powerful machine learning capabilities with GPU acceleration and deploy Yolo V8 for advanced object detection tasks.
 
-We have provided detailed instructions to ensure compatibility and ease of installation, whether you are setting up a development environment or preparing for production deployment.
+We have provided detailed instructions to ensure compatibility and ease of installation.
 
 ## Prerequisites
 Before you begin, ensure your system meets the following requirements:
