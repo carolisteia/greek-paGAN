@@ -3,6 +3,9 @@
 ## Goal
 In this exercise, we aim to perform classification and generation tasks on a dataset of ancient Greek characters. A more detailed explanation is available in the accompanying report file.
 
+## Detailed Project Report
+For a comprehensive overview of the project's objectives, methodologies, and findings, please see our [Detailed Project Report](./DETAILED_PROJECT_REPORT.md).
+
 
 ## Getting Started
 For installation instructions and getting started with the project, please see the [Installation Guide](./INSTALL.md).
