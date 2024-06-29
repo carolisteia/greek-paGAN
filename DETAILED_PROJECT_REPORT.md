@@ -56,19 +56,7 @@ This notebook delves into character inferences, exploring techniques for predict
 This notebook explores various aspects of Greek Paganism, focusing on historical, cultural, and religious contexts. It includes detailed explanations, code snippets, and visualizations to enhance understanding.
 
 ### Contents
-1. **Preamble**
-    - Introduction and background of the Greek Pagan project.
-2. **State of the Art**
-    - Overview of image classification and GAN techniques.
-    - Discussion on the significance of deep learning in OCR and HTR.
-3. **Image Classification Using YOLO**
-    - Task description for classifying Greek characters.
-    - Methodologies and dataset preparation.
-    - Model definition and training details.
-    - Evaluation of model performance.
-4. **Synthetic Data Generation with GANs**
-    - Exploring the generation of synthetic datasets using GANs.
-    - Enhancing the robustness of classifiers with synthetic data.
+
 
 ## VAE Notebook 
 
