@@ -1,0 +1,14 @@
+epochs=30, batch_size=35, latent_dim = 200
+# Encodeur
+inputs = Input(shape=input_shape)
+x = Flatten()(inputs)
+x = Dense(512, activation='relu')(x)
+x = Dense(256, activation='relu')(x)
+
+
+decoder_inputs = Input(shape=(latent_dim,))
+x = Dense(512, activation='relu')(decoder_inputs)
+x = Dense(1024, activation='relu')(x)  # Augmenter la capacité
+x = Dense(2048, activation='relu')(x)  # Exemple d'augmentation de capacité
+x = Dense(np.prod(input_shape), activation='sigmoid')(x)
+outputs = Reshape(input_shape)(x)
