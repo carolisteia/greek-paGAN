@@ -78,7 +78,9 @@ The project uses a Variational Autoencoder (VAE) to generate images representing
 
 ### Method
 
-The VAE consists of an 'encoder' which transforms each image into a set of parameters characterising a latent space, followed by a 'decoder' which uses these parameters to reconstruct an image of the letter E. By adjusting random latent ve
+The VAE is divided into two main parts: an 'encoder' that transforms an image of the letter E into a set of parameters defining an abstract space called 'latent space', and a 'decoder' that uses these parameters to reconstruct a new image of the letter E. Using a stochastic sampler, the model explores different variations of the original image in this latent space, allowing new images to be generated.
+
+After training on a set of images of the letter E, the VAE is able to generate new images using a random latent vector as input to the decoder. These new images retain the distinctive features of the letter E while varying in specific aspects learned during training.
 
 ### Result
 
