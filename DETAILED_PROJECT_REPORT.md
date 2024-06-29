@@ -42,7 +42,6 @@ This notebook delves into character inferences, exploring techniques for predict
 
 3. **Training**
        - The model is trained using different parameters. 
-            
        - The model's performance is assessed using an occlusion technique commonly used in computer vision.
         
 4. **Results**
@@ -89,55 +88,4 @@ This report provides an overview of each notebook, summarizing the main objectiv
 
 
 
-
-#### 1. "character_classification.md"
-
-This notebook outlines a project centered on the detection and recognition of ancient Greek characters using the YOLO object detection model. It is structured into three main sections:
-
-**A) Data Generation and Classification**
-   - **Objective**: Classify ancient Greek characters by generating separate classes for each character type (e.g., alpha, beta).
-   - **Methodology**: Utilize the ICDAR dataset, enhance it to be compatible with YOLO, and set up a baseline for training.
-
-**B) Dataset Analysis**
-   - **ICDAR Dataset**: Used for initial training and model benchmarking.
-   - **GAN Dataset**: Exploring the potential of generating synthetic characters to improve data diversity and model robustness.
-
-**C) Application and Experimentation**
-   - **Utilization**: Applying techniques from previous coursework to generate Greek numeric characters.
-   - **Question**: Investigate whether data generation can yield better results when existing datasets are limited.
-
-**Task Division and Collaboration**
-   - **Sub-projects**: Classification, Generation, and Improvement.
-   - **Data Augmentation**: Discussions focus on the theoretical and practical benefits of creating synthetic datasets to enhance model performance.
-
-#### 2. "greek_pagan"
-
-## Overview
-This notebook focuses on the classification of Greek Pagan characters into 5 classes. The model is trained for 30 epochs with a batch size of 128.
-
-## Contents
-The notebook is structured as follows:
-
-### 1. Introduction
-- Provides background information on the classification task.
-
-### 2. Data Preparation
-- Loading and preprocessing the dataset.
-- Splitting the dataset into training, validation, and test sets.
-
-### 3. Model Definition
-- Building a neural network model using TensorFlow and Keras.
-- Defining the architecture of the model, including input layers, hidden layers, and output layers.
-
-### 4. Model Training
-- Compiling the model with appropriate loss functions and optimizers.
-- Training the model on the training dataset and validating on the validation dataset over 30 epochs.
-
-### 5. Evaluation
-- Evaluating the model's performance on the test dataset.
-- Generating confusion matrices and accuracy metrics.
-
-### 6. Results
-- Presenting the results of the model training and evaluation.
-- Visualizing the accuracy and loss over epochs.
 
