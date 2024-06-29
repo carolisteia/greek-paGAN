@@ -70,7 +70,19 @@ This notebook explores various aspects of Greek Paganism, focusing on historical
     - Exploring the generation of synthetic datasets using GANs.
     - Enhancing the robustness of classifiers with synthetic data.
 
+## VAE Notebook 
 
+### Overview
+
+The project uses a Variational Autoencoder (VAE) to generate images representing the letter E from an initial set of images of the letter epsilon. The method uses TensorFlow and Keras to build and train the VAE. The images are pre-processed by converting the colours, resizing to a standard size of 64x64 pixels, and normalising the pixel values between 0 and 1, thus ensuring consistency in the processing of the data.
+
+### Method
+
+The VAE consists of an 'encoder' which transforms each image into a set of parameters characterising a latent space, followed by a 'decoder' which uses these parameters to reconstruct an image of the letter E. By adjusting random latent ve
+
+### Result
+
+However, the VAE training process presents significant challenges, including the need to precisely calibrate hyperparameters such as layer size, learning rate and number of epochs. Currently, the quality of the images generated shows imperfections, including blurring in the shape of the reconstructed epsilon letter. This limitation highlights the complexity of the task of faithfully reproducing the distinct features of the letter E from limited training data. To improve the performance of the model, further adjustments to the hyperparameters and exploration of other image quality enhancement techniques may be required to produce more accurate and recognisable visual results.
 
 This report provides an overview of each notebook, summarizing the main objectives, methods, and findings. Each section includes a brief description of the tasks, datasets, models, training processes, and evaluations performed in the notebooks.
 
