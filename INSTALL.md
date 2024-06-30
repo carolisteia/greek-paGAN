@@ -1,16 +1,28 @@
 # Installation Guide
 
-Welcome to the installation guide for our project. This guide will walk you through the setup process for two crucial components necessary for running our applications: **TensorFlow with GPU support** and **Yolo V8**. By following these steps, you will prepare your environment to leverage TensorFlow's powerful machine learning capabilities with GPU acceleration and deploy Yolo V8 for advanced object detection tasks.
+Welcome to the installation guide for our project. This guide will walk you through the setup process for two crucial components necessary for running our applications: TensorFlow with GPU support and Yolo V8. By following these steps, you will prepare your environment to leverage TensorFlow's powerful machine learning capabilities with GPU acceleration and deploy Yolo V8 for advanced object detection tasks.
 
 We have provided detailed instructions to ensure compatibility and ease of installation.
 
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [TensorFlow with GPU Support](#tensorflow-with-gpu-support)
+  - [Installation Steps](#installation-steps)
+  - [Additional Steps for GPU Support](#additional-steps-for-gpu-support)
+  - [Alternative: Using Kaggle or Google Colab](#alternative-using-kaggle-or-google-colab)
+- [Yolo V8](#yolo-v8)
+- [Resources](#resources)
+
 ## Prerequisites
+
 Before you begin, ensure your system meets the following requirements:
-- **Python**: We use the latest version, Python 3.10. Ensure that Python 3.10 (or other) is installed on your system.
+
+- **Python**: We use the latest version, Python 3.10. Ensure that Python 3.10 (or newer) is installed on your system.
 - **CUDA-capable GPU**: This is optional but recommended for TensorFlow GPU support. Ensure that your GPU is compatible with the required CUDA and cuDNN libraries.
 
+## TensorFlow with GPU Support
 
-# TensorFlow with GPU Support
+### Installation Steps
 
 To install TensorFlow with GPU support, follow these steps:
 
@@ -24,21 +36,28 @@ Verify the installation and check if TensorFlow can access the GPU:
 python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 ```
 
-## Additional Steps for GPU Support
+### Additional Steps for GPU Support
 
 1. **Install NVIDIA GPU Driver**: Ensure that you have the appropriate NVIDIA driver installed for your GPU.
-2. **Install CUDA Toolkit**: Download and install the CUDA toolkit from NVIDIA's official website.
-3. **Install cuDNN**: Download and install the cuDNN library from NVIDIA's website.
+2. **Install CUDA Toolkit**: Download and install the CUDA toolkit from [NVIDIA's official website](https://developer.nvidia.com/cuda-toolkit).
+3. **Install cuDNN**: Download and install the cuDNN library from [NVIDIA's website](https://developer.nvidia.com/cudnn).
 4. **Set Environment Variables**: Ensure that the environment variables are set correctly for CUDA and cuDNN.
 
-## Alternative: Using Kaggle or Google Colab
+Example for setting environment variables on Linux:
+
+```sh
+export PATH=/usr/local/cuda-10.1/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+```
+
+### Alternative: Using Kaggle or Google Colab
 
 If you prefer not to install the GPU support locally, you can use online platforms like Kaggle or Google Colab, which offer free access to GPUs. These platforms have the necessary libraries and drivers pre-installed, allowing you to use GPU accelerators without additional setup.
 
 - **Kaggle**: Provides free access to GPUs for running notebooks.
 - **Google Colab**: Offers free access to GPUs and TPUs. You can choose the accelerator type in the notebook settings.
 
-### Using a GPU in Google Colab:
+### Using a GPU in Google Colab
 
 1. Open your Colab notebook.
 2. Go to `Runtime` > `Change runtime type`.
@@ -47,19 +66,21 @@ If you prefer not to install the GPU support locally, you can use online platfor
 
 This way, you can leverage GPU acceleration without needing to install and configure the hardware and software dependencies on your local machine.
 
-
 ## Yolo V8
 
 To install Yolo V8 in a dedicated conda environment, use the following commands:
 
-```bash
+```sh
 conda create --name yolo python=3.10
 conda activate yolo
 pip install ultralytics
 pip install ipykernel
 ```
-By the end of this guide, you will have a fully functional environment ready for developing and testing applications using TensorFlow and Yolo V8. 
+
+By the end of this guide, you will have a fully functional environment ready for developing and testing applications using TensorFlow and Yolo V8.
 
 ## Resources
-1. [TensorFlow with GPU Support](https://www.tensorflow.org/))
-2. [Yolo V8 Installation](https://datascientest.com/you-only-look-once-tout-savoir)
+
+- [TensorFlow with GPU Support](https://www.tensorflow.org/install/gpu)
+- [Yolo V8 Installation](https://github.com/ultralytics/yolov5)
+
