@@ -1,7 +1,7 @@
 ## Comprehensive Report on the Notebooks:
 
 ### Introduction
-The project is focused on employing machine learning techniques to identify and generate ancient Greek characters. It is structured around several key activities, including dataset preparation, model training, and evaluation of generative models. The overarching goal is to explore how data augmentation and generative models can improve character recognition in damaged or incomplete texts.
+The project is focused on employing machine learning techniques to identify and generate ancient Greek characters. It is structured around several key activities, including dataset preparation, model training, and evaluation of generative models. 
 
 ### Notebook Overview
 The notebooks present methodologies for the classification and generation of ancient Greek characters, employing machine learning techniques with an emphasis on synthetic data. Most parts of these notebooks were originally created by [Chahan Vidal-Gorène](https://www.chartes.psl.eu/annuaire/chahan-vidal-gorene) during Python classes for the Digital Humanities students at the Ecole Nationale des Chartes. We have adapted them to work with our dataset.
