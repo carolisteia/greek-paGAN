@@ -43,12 +43,8 @@ This notebook delves into character inferences, exploring techniques for predict
 3. **Training**
        - The model is trained using different parameters. 
        - The model's performance is assessed using an occlusion technique commonly used in computer vision.
-        
-4. **Results**
 
-    The model achieved reasonable classification accuracy but faced challenges due to the complex nature of ancient script characters.
-    The generated heatmaps provided insights into the discriminative features used by the model for character classification.
-    Future work should focus on refining the model architecture and exploring larger datasets to improve classification performance.
+   
 
 ## Greek Pagan Notebook
 
