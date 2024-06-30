@@ -52,11 +52,22 @@ This notebook delves into character inferences, exploring techniques for predict
 
 ## Greek Pagan Notebook
 
-### Overview
-This notebook explores various aspects of Greek Paganism, focusing on historical, cultural, and religious contexts. It includes detailed explanations, code snippets, and visualizations to enhance understanding.
+#### Task
+Generate artificial fake character images using a Generative Adversarial Network (GAN).
 
-### Contents
+#### Data
+Noise vectors and corresponding random class labels generated using the `generate_noise` function.
 
+#### Model
+Pre-trained GAN generator model loaded from `cgan_generator.h5`.
+
+#### Process
+1. Generate noise and labels.
+2. Feed them into the GAN generator.
+3. Generate and plot synthetic images.
+
+#### Outcome
+The results of the generated synthetic character images are not effective for the moment. Further work should be done to address this issue and improve the quality of the generated images.
 
 ## VAE Notebook 
 
