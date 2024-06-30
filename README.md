@@ -1,7 +1,8 @@
 # greek-paGAN
 
-## Goal
-In this exercise, we aim to perform classification and generation tasks on a dataset of ancient Greek characters. A more detailed explanation is available in the accompanying report file.
+## Introduction
+Greek-paGAN is a project aimed at performing classification and generation tasks on a dataset of ancient Greek characters. The project utilizes advanced machine learning techniques to recognize and generate glyphs from damaged papyri.
+
 
 ## Detailed Project Report
 For a comprehensive overview of the project's objectives, methodologies, and findings, please see our [report](./reports) and the notebooks overview in [Detailed Project Report](./notebooks/DETAILED_PROJECT_REPORT.md).
