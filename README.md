@@ -14,6 +14,8 @@ For installation instructions and getting started with the project, please see t
 ### classification
 The original dataset is from the ICDAR 2023 [competition](https://lme.tf.fau.de/competitions/2023-competition-on-detection-and-recognition-of-greek-letters-on-papyri/). Participating teams focused on glyph detection and recognition in ancient Greek texts on damaged papyri. For this exercise, we are using cropped images of each character from the papyrus, available for download [here](https://www.dropbox.com/scl/fo/xmzzg3rks3f9xf0s5i4bz/ABAEORqLtKzgfCxIqjGahPg?rlkey=mtr91csjom9h1274ppeem2gss&st=igv0rka5&dl=0).
 
+## License
+This project is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Read the [license](./license.md) for further information. 
 
 ## Team members
 - Carolina Macedo *alias* carolisteia
