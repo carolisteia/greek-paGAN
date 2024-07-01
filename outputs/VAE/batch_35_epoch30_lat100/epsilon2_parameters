@@ -1,0 +1,1 @@
+epochs=30, batch_size=35, lat_dim=100
