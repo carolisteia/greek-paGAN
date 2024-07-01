@@ -1,0 +1,1 @@
+ epochs=100, batch_size=65, latent_dim=100
