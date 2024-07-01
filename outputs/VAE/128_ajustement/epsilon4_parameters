@@ -1,0 +1,1 @@
+ epochs=30, batch_size=25, latent_dim=100, img = cv2.resize(img, (128, 128))
