@@ -1,0 +1,1 @@
+epochs=30, batch_size=35, latent_dim = 150
